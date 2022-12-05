@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin-left: 450px;
+        }
+        input{
+            width:600px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px black solid;
+            font-size: 20px;
+            margin-left: 300px;
+        }
+        span{
+            margin-left: 300px;
+            color: red;
+        }
+        #btn{
+            background-color: skyblue;
+            color: black;
+            font-size: 20px;
+        }
+        #btn:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="form" action="#" autocomplete="off" onsubmit="return validation()">
+        <input type="text" id="username" placeholder="Username"><br><span id="un"></span><br><br>
+        <input type="password" id="password" placeholder="Password"><br><span id="pass"></span><br><br>
+        <input type="password" id="conpass" placeholder="confirm Password"><br><span id="cp"></span><br><br>
+        <input type="text" id="email" placeholder="Email"><br><span id="em"></span><br><br>
+        <input type="text" id="mobile" placeholder="Mobile(Do not write +91)"><br><span id="mob"></span><br><br>
+        <input type="submit" id="btn">
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
